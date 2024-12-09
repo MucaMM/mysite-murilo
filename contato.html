@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Murilo</title>
-    <!-- Vincula o arquivo de estilos CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Vincula o arquivo de script JavaScript -->
     <script defer src="js/script.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <!-- Links de navegação para outras páginas -->
                 <li><a href="index.html">Início</a></li>
                 <li><a href="formacao.html">Formação</a></li>
                 <li><a href="portfolio.html">Portfólio</a></li>
@@ -23,31 +20,24 @@
     </header>
     <main>
         <h1>Entre em Contato</h1>
-        <!-- Formulário de contato -->
         <form id="contactForm">
             <div class="form-group">
                 <label for="nome">Nome:</label>
-                <!-- Campo de texto para o nome -->
                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
             </div>
             <div class="form-group">
                 <label for="email">E-mail:</label>
-                <!-- Campo de entrada para o e-mail -->
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
             </div>
             <div class="form-group">
                 <label for="mensagem">Mensagem:</label>
-                <!-- Área de texto para mensagem -->
                 <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
             </div>
-            <!-- Botão para enviar o formulário -->
             <button type="submit">Enviar</button>
         </form>
-        <!-- Mensagem de sucesso oculta por padrão -->
         <p id="successMessage" class="hidden">Sua mensagem foi enviada com sucesso!</p>
     </main>
     <footer>
-        <!-- Rodapé do site -->
         <p>&copy; 2024 Murilo - Todos os direitos reservados.</p>
     </footer>
 </body>
