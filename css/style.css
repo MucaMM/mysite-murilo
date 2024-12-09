@@ -38,3 +38,189 @@ form {
 form label, form input, form textarea, form button {
     margin-bottom: 10px;
 }
+
+/* Estilo da seção Sobre Mim */
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#hobbies h2 {
+    color: #555;
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#hobbies p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+#hobbies ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#hobbies li {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#hobbies li strong {
+    color: #222;
+}
+
+
+/* Estilo para a página de formação */
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+section h2 {
+    color: #555;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+section li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #444;
+}
+
+section li strong {
+    color: #222;
+}
+
+
+/* Estilo para a página de portfólio */
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+section h2 {
+    color: #555;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #444;
+}
+
+section li a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+section li a:hover {
+    color: #0056b3;
+}
+
+
+/* Estilo para a página de contato */
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#successMessage {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
